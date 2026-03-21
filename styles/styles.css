@@ -1,26 +1,109 @@
-nav {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ======================== */
+header {
     background-color: darkblue;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 nav a {
     color: white;
-    display: block;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+main {
     padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
 h1 {
     color: darkblue;
+    margin-bottom: 20px;
 }
 
-img {
+main img {
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 15px gray;
 }
 
 p {
+    padding-bottom: 15px;
+}
+
+/* ========================*/
+
+aside {
+    width: 300px;
+    margin: 20px 0;
+    border: 1px solid #333;
     padding: 10px;
+    background-color: #eee;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+aside img {
+    width: 100%;
+    height: auto;
+}
+
+aside p {
+    margin-top: 150px;
+
+}
+
+ul {
+    list-style-type: disc;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ddd;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #333;
 }
